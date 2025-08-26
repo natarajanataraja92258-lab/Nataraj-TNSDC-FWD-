@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Foodie Restaurant</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header>
+
+    <h1>🍴 Foodie Restaurant</h1>
+
+    <nav>
+
+      <a href="#menu">Menu</a>
+
+      <a href="#booking">Book Table</a>
+
+    </nav>
+
+  </header>
+
+  <!-- Hero Section -->
+
+  <section class="hero">
+
+    <h2>Welcome to Foodie Restaurant</h2>
+
+  </section>
+
+  <!-- Menu Section -->
+
+  <section class="container" id="menu">
+
+    <h2>Our Menu</h2>
+
+    <div class="menu">
+
+      <div class="card">
+
+        <img src="https://images.unsplash.com/photo-1600891965053-dad2b6d6f5a9?auto=format&fit=crop&w=500&q=80" alt="Pizza">
+
+        <h3>Pizza</h3>
+
+        <p>Delicious cheese pizza with toppings</p>
+
+        <p><b>$10</b></p>
+
+      </div>
+
+      <div class="card">
+
+        <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb36?auto=format&fit=crop&w=500&q=80" alt="Burger">
+
+        <h3>Burger</h3>
+
+        <p>Juicy beef burger with fries</p>
+
+        <p><b>$8</b></p>
+
+      </div>
+
+      <div class="card">
+
+        <img src="https://images.unsplash.com/photo-1604908177522-432f3291f6a1?auto=format&fit=crop&w=500&q=80" alt="Pasta">
+
+        <h3>Pasta</h3>
+
+        <p>Italian pasta with creamy sauce</p>
+
+        <p><b>$12</b></p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Booking Form -->
+
+  <section class="container" id="booking">
+
+    <form id="bookingForm">
+
+      <h3>Book a Table</h3>
+
+      <input type="text" id="name" placeholder="Your Name" required>
+
+      <input type="email" id="email" placeholder="Your Email" required>
+
+      <input type="date" id="date" required>
+
+      <select id="time" required>
+
+        <option value="">Select Time</option>
+
+        <option>12:00 PM</option>
+
+        <option>1:00 PM</option>
+
+        <option>7:00 PM</option>
+
+        <option>8:00 PM</option>
+
+      </select>
+
+      <input type="number" id="people" placeholder="No. of People" min="1" required>
+
+      <button type="submit">Book Now</button>
+
+    </form>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer>
+
+    <p>© 2025 Foodie Restaurant. All rights reserved.</p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
